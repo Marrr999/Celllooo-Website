@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Celllooo</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <!-- Toggle Btn-->
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <!-- <i class='bx bx-menu'></i> -->
+            </div>
+
+            <div class="profile_img">
+                <img src="assets/logo.png" alt="">
+            </div>
+
+            <div class="username">Celllooo</div>
+
+            <div class="links">
+                <ul>
+                    <li>
+                        <a class="active" href="#home"><i class='bx bx-home-alt-2'></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"><i class='bx bx-question-mark'></i> About</a>
+                    </li>
+                    <li>
+                        <a href="#projects"><i class='bx bxl-visual-studio'></i> Projects</a>
+                    </li>
+                    <li>
+                        <a href="#partner"><i class='bx bx-user'></i> Partner</a>
+                    </li>
+                    <li>
+                        <a href="#settings"><i class='bx bx-cog'></i> Settings</a>
+                    </li>
+                    <li>
+                        <a href="#contact"><i class='bx bx-chat'></i> Contact</a>
+                    </li>
+                    <br><br><br><br>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section id="home"><h1>Home</h1></section>
+        <section id="about"><h1>About</h1></section>
+        <section id="projects"><h1>Projects</h1></section>
+        <section id="partner"><h1>Partner</h1></section>
+        <section id="settings">
+            <h1>Settings</h1>
+            <!-- <div id="login-section" class="login-section">
+                <div class="form-box register">
+                    <form class="form-register" action="">
+
+                        <h2>Sign Up</h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" required>
+                            <label >Username</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label >Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-password">
+                            <label for=""><input type="checkbox">I agree with this statment</label>
+                        </div>
+                        <button class="btn" onclick="removelogin()">Sign Up</button>
+                        <div class="create-account">
+                            <p>Already Have An Account? <a href="#" class="login-link">Sign In</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box login">
+                    <form class="form-login" action="">
+                        <h2>Sign In</h2>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label >Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-password">
+                            <label for=""><input type="checkbox">Remember Me</label>
+                            <a href="#">Forget Password</a>
+                        </div>
+                        <button class="btn" onclick="removelogin()">Login In</button>
+                        <div class="create-account">
+                            <p>Create A New Account? <a href="#" class="register-link">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+        </section>
+        <section id="contact"><h1>Contact</h1></section>
+        <footer>
+            <!-- Footer Content -->
+            <div class="footer_content">
+                <div class="container">
+                    <!-- Container -->
+                    <div class="col contact">
+                        <p>
+                            <a href="/" class="logo">Celllooo</a>
+                        </p>
+                        <p><ion-icon class="icon" name="location-outline"></ion-icon> 40173 Cicendo, Pamoyanan, Bandung</p>
+                        <p><ion-icon class="icon" name="mail"></ion-icon><a href="mailto:djangkapjaya@gmail.com"> djangkapjaya@gmail.com</a></p>
+                        <p><ion-icon class="icon" name="call"></ion-icon> +62 812-2320-0778</p>
+                        <!-- Social Links -->
+                        <div class="social_media_links">
+                            <a href="http://facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="http://instagram.com/celll.jj" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="http://github.com/Marrr999" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                    </div>
+                    <!-- Info -->
+                    <div class="col info">
+                        <h2>Info</h2>
+                        <p>
+                            <a href="/about">About</a>
+                        </p>
+                        <p>
+                            <a href="/contact">Contact</a>
+                        </p>
+                        <p>
+                            <a href="/terms-and-conditions">Terms and Conditions</a>
+                        </p>
+                        <p>
+                            <a href="/privacy-policy">Privacy Policy</a>
+                        </p>
+                    </div>
+                    <!-- Newsletter-->
+                    <div class="col newsletter">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <form action="" class="newsletter-form">
+                            <input type="text" placeholder="Your email" />
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright-->
+            <div class="footer_copyright">Copyright &copy; 2023 Celllooo</div>
+        </footer>
+        <!-- Footer Icons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
